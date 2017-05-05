@@ -1,0 +1,15 @@
+DROP DATABASE catData;
+
+CREATE DATABASE catData;
+
+USE catData;
+
+CREATE TABLE allCats (
+name VARCHAR(25) NOT NULL,
+email VARCHAR(50) NOT NULL,
+description TEXT NOT NULL,
+url VARCHAR(200) NOT NULL,
+PRIMARY KEY (name, email)
+);
+
+
